@@ -1,0 +1,3 @@
+con xfontsel puoi creare un nome del font che ti serve per X, ma non ci sono tutti
+
+se ti servono anche i .TTF che con xfontsel non ci stanno, usa 'fc-list | cut -f2 -d: | sort -U' per trovare il tuo font, poi in .Xresources puoi trovare un esempio di come usarlo, nome con maiuscole e minuscole attaccato, e in dwm al posto di fontsize metti size
